@@ -1,0 +1,33 @@
+{
+  "name": "node-ses-example",
+  "version": "1.0.0",
+  "description": "Example implementation of Amazon Simple Email Service (Amazon SES)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maclisowski/node-ses-example.git"
+  },
+  "keywords": [
+    "node",
+    "ses",
+    "amazon",
+    "aws"
+  ],
+  "author": "Maciej Lisowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maclisowski/node-ses-example/issues"
+  },
+  "homepage": "https://github.com/maclisowski/node-ses-example#readme",
+  "dependencies": {
+    "aws-sdk": "^2.361.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^6.1.0",
+    "express": "^4.18.1",
+    "serverless-http": "^3.0.2"
+  }
+}

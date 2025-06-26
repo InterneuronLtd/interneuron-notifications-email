@@ -1,0 +1,14 @@
+service: NODE-SES
+frameworkVersion: '3.22.0'
+provider:
+  name: aws
+  region: AWS_REGION=
+  runtime: nodejs14.x
+  stage: ENVIRONMENT_STAGE
+  memorySize: 128
+  lambdaHashingVersion: 20201221
+functions:
+  app:
+    handler: app.handler
+    events:
+    - httpApi: '*'
